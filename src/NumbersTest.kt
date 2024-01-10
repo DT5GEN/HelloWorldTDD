@@ -11,12 +11,11 @@ class NumbersTest {
     @Test
     fun testSum() {
 
-        // 12, 4
-        // 16, sum 12 & 4
 
-        val numbers: Numbers = Numbers.Base(11, 5)
+
+        val numbers: Numbers = Numbers.Base3(11, 5, 3)
         val actual = numbers.sum()
-        val expected: Int = 16
+        val expected: Int = 19
 
         assertEquals(expected, actual)
     }
@@ -24,12 +23,10 @@ class NumbersTest {
     @Test
     fun testDiff() {
 
-        // 12, 4
-        // 16, sum 12 & 4
 
-        val numbers: Numbers = Numbers.Base(20, 5)
+        val numbers: Numbers = Numbers.Base3(20, 5, 4)
         val actual = numbers.different()
-        val expected: Int = 15
+        val expected: Int = 11
 
         assertEquals(expected, actual)
     }
