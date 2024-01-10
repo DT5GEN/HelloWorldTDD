@@ -11,7 +11,7 @@ var customsClearance: Float = 1550.0f
 var flatRate: Float = 0.0f
 
 
-interface NinjaCarValue: {
+interface NinjaCarValue {
 
 
     fun sumJapanMoney(): Double
@@ -82,8 +82,6 @@ interface NinjaCarValue: {
     }
 
 
-
-
-    }
+}
 
 
