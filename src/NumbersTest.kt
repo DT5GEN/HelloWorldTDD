@@ -31,5 +31,16 @@ class NumbersTest {
         assertEquals(expected, actual)
     }
 
+    @Test
+    fun testDivideDouble() {
+
+
+        val numbers: Numbers = Numbers.Base2(20, 5)
+        val actual = numbers.divide()
+        val expected: Double = 4.0
+
+        assertEquals(expected, actual)
+    }
+
 
 }
