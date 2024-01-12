@@ -42,7 +42,7 @@ class FormulaTest {
         carFullPrice.sumRussianMoney()
 
         val actual = carFullPrice.sumFinalMoney()
-        val expected: Float = 748444.75f
+        val expected: Double = 748444.75
 
         assertEquals(expected, actual )
     }
